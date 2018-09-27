@@ -1,0 +1,55 @@
+{
+	"name": "MyApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"devtools": "react-devtools",
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"android": "node node_modules/react-native/local-cli/cli.js run-android",
+		"test": "jest"
+	},
+	"dependencies": {
+		"devtools": "0.0.0",
+		"install": "^0.12.1",
+		"npm": "^6.3.0",
+		"react": "16.0.0-alpha.6",
+		"react-devtools": "^3.2.3",
+		"react-naive-highly-customizable-action-sheet": "^1.1.2",
+		"react-native": "0.44.3",
+		"react-native-communications": "^2.2.1",
+		"react-native-elements": "^0.19.1",
+		"react-native-image-picker": "^0.26.10",
+		"react-native-keyboard-aware-scroll-view": "^0.7.0",
+		"react-native-lightbox": "^0.8.0",
+		"react-native-material-kit": "^0.5.1",
+		"react-native-modalbox": "^1.6.0",
+		"react-native-qrcode-svg": "^5.1.0",
+		"react-native-roll-picker": "^1.0.6",
+		"react-native-scrollable-tab-view": "^0.8.0",
+		"react-native-search-header": "^0.2.7",
+		"react-native-searchbar": "^1.15.0",
+		"react-native-shadow": "^1.2.2",
+		"react-native-side-menu": "^1.1.3",
+		"react-native-snap-carousel": "^3.7.2",
+		"react-native-storage": "^0.2.2",
+		"react-native-svg": "^7.0.3",
+		"react-native-swiper": "^1.5.13",
+		"react-native-tab-navigator": "^0.3.4",
+		"react-native-vector-icons": "^5.0.0",
+		"react-native-wechat": "^1.9.10",
+		"react-navigation": "^2.7.0",
+		"react-redux": "^5.0.7",
+		"redux": "^4.0.0",
+		"redux-thunk": "^2.3.0",
+		"rn-viewpager": "^1.2.9"
+	},
+	"devDependencies": {
+		"babel-jest": "23.2.0",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "23.3.0",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}

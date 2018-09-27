@@ -1,0 +1,100 @@
+
+
+method: "PATCH",
+header: {
+    "Content-Type": "application/json"
+},
+body: {
+    "ApprovalStatus": "3",
+    "ApprovalNotes": "agree",
+    "ApproverID": "P100004",
+    "Approver": "new"
+},
+before: {
+    "appActivityDateTime": "Date(1533916800000)",
+    "appTaskType": "Z4",
+    "approvalStatus": "1",
+    "dealerID": "10145",
+    "originTypeCode": "Z2",
+    "salesChangeTimes": "1.00",
+    "salesID": "P100004",
+    "salesManagerID": "P100004",
+    "shipmentTime": "Date(1533916800000)",
+    "userStatusCode": "Z8"
+},
+after: {
+    "appActivityDateTime": "",
+    "appTaskType": "",
+    "approvalStatus": "3",
+    "dealerID": "10145",
+    "originTypeCode": "Z2",
+    "salesChangeTimes": "1.00",
+    "salesID": "P100004",
+    "salesManagerID": "P100004",
+    "shipmentTime": "Date(1533916800000)",
+    "userStatusCode": "ZA"
+}
+
+agree
+beforeParams : {"appActivityDateTime":"/Date(1533052800000)/","appTaskType":"Z4","approvalStatus":"1","dealerID":"10145","originTypeCode":"Z2","salesChangeTimes":"1.00","salesID":"P100004","salesManagerID":"P100004","shipmentTime":"/Date(1533052800000)/","userStatusCode":"Z8"}
+afterParams : {"appActivityDateTime":"","appTaskType":"","approvalStatus":"3","dealerID":"10145","originTypeCode":"Z2","salesChangeTimes":"1.00","salesID":"P100004","salesManagerID":"P100004","shipmentTime":"/Date(1533052800000)/","userStatusCode":"ZA"}
+
+rejest:
+beforeParams : {"appActivityDateTime":"/Date(1533052800000)/","appTaskType":"Z4","approvalStatus":"1","dealerID":"10145","originTypeCode":"Z2","salesChangeTimes":"1.00","salesID":"P100004","salesManagerID":"P100004","shipmentTime":"/Date(1533052800000)/","userStatusCode":"Z8"}
+afterParams : {"appActivityDateTime":"/Date(1533052800000)/","appTaskType":"Z4","approvalStatus":"4","dealerID":"10145","originTypeCode":"Z2","salesChangeTimes":"1.00","salesID":"P100004","salesManagerID":"P100004","shipmentTime":"/Date(1533052800000)/","userStatusCode":"Z8"}
+
+aggree:
+bodyParams: {
+    "ApprovalStatus":"3",
+    "ApprovalNotes":"tongyi ",
+    "ApproverID":"P100004",
+    "Approver":"new"
+}
+beforeParams : {
+    "appActivityDateTime":"/Date(1532448000000)/",
+    "appTaskType":"Z4",
+    "approvalStatus":"1",
+    "dealerID":"10145",
+    "originTypeCode":"Z2",
+    "salesChangeTimes":"1.00",
+    "salesID":"P100004",
+    "salesManagerID":"P100004",
+    "shipmentTime":"/Date(1532448000000)/",
+    "userStatusCode":"Z8"
+}
+afterParams: {
+    "appActivityDateTime":"",
+    "appTaskType":"",
+    "approvalStatus":"3",
+    "dealerID":"10145",
+    "originTypeCode":"Z2",
+    "salesChangeTimes":"1.00",
+    "salesID":"P100004",
+    "salesManagerID":"P100004",
+    "shipmentTime":"/Date(1532448000000)/",
+    "userStatusCode":"ZA"
+}
+
+reject:
+bodyParams: {
+    "ID":"45080",
+    "ApprovalStatus":"4",
+    "ApprovalNotes":"bu tong yi",
+    "ApproverID":"P100004",
+    "Approver":"new",
+    "SalesID":null,
+    "Sales":"new"
+}
+beforeParams : {
+    "appActivityDateTime":"/Date(1532448000000)/",
+    "appTaskType":"Z4",
+    "approvalStatus":"1",
+    "dealerID":"10145",
+    "originTypeCode":"Z2",
+    "salesChangeTimes":"1.00",
+    "salesID":"P100004",
+    "salesManagerID":"P100004",
+    "shipmentTime":"/Date(1532448000000)/",
+    "userStatusCode":"Z8"
+}
+
